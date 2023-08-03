@@ -90,3 +90,39 @@ let testFunction = () => {
     return foo + bar;
 };
 ```
+
+## Links
+
+Use square brackets first for the name that will appear to the user and then the URL in paranthesis.
+
+[Treehouse](https://teamtreehouse.com/)
+
+To include a custom tooltip, within the parenthesis holding the link add a space and enclose the desired tooltip in quotes.
+
+[Treehouse](https://teamtreehouse.com/ "Link to Team Treehouse")
+
+To create a reference link, use a the title in square brackets followed by a number in square brackets. In a separate line, have the same number in square brackets followed by colon and the URL.
+
+[Treehouse][1]
+
+[1]: https://teamtreehouse.com "Reference link to Treehouse"
+
+## Images
+
+### To display an image
+
+Exclamation point. Add alt text in square brackets first. Then add URL to image into paranthesis following.
+
+![Kittens](https://placekitten.com/250/400)
+
+### To display an image with a link
+
+Square brackets with exclamation point, alt text in square brackets, and url inside paranthesis. Follow this by paranthesis with routable link.
+
+[![Kittens](https://placekitten.com/300/400)](https://placekitten.com/)
+
+### To add an image title
+
+Bang, alt text in square brackets, paranthesis of URL followed by space and title within quotes.
+
+![Kittens](https://placekitten.com/350/400 "Curious kitten")
