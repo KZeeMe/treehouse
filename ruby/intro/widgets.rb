@@ -4,7 +4,14 @@ def ask(question)
 end
 
 def price(quantity)
-    quantity * 10
+    if quantity >= 100
+        price_per_unit = 8
+    elsif quantity >= 50
+        price_per_unit = 9
+    else
+        price_per_unit = 10
+    end
+    quantity * price_per_unit
 end
 
 puts "Welcome to the widget store!"
